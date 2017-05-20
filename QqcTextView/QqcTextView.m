@@ -7,6 +7,8 @@
 //
 
 #import "QqcTextView.h"
+#import "QqcColorDef.h"
+#import "QqcComFuncDef.h"
 
 @interface QqcTextViewSupport : NSObject <UITextViewDelegate>
 

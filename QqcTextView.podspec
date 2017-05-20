@@ -12,5 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/xukiki/QqcTextView.git", :tag => "#{s.version}" }
   
   s.source_files  = ["QqcTextView/*.{h,m}"]
+  s.dependency "QqcColorDef"
+  s.dependency "QqcComFuncDef"
   
 end
